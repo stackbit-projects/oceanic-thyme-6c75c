@@ -1,0 +1,46 @@
+name: Forever Jekyll
+description: 'A simple, elegant and full featured Jekyll theme'
+avatar: /assets/image/avatar.png
+url: ''
+baseurl: ''
+navigation_links:
+  - title: Blog
+    url: /
+  - title: About
+    url: /about
+  - title: Search
+    url: /search
+footer_links:
+  - title: Feed
+    url: feed.xml
+    icon: fa fa-rss-square
+  - title: Twitter
+    url: 'https://twitter.com/jekyllrb'
+    icon: fa fa-twitter-square
+  - title: GitHub
+    url: 'https://github.com/forever-jekyll'
+    icon: fa fa-github-square
+permalink: pretty
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+paginate: 5
+paginate_path: '/page/:num/'
+sass:
+  sass_dir: _sass
+  style: ':expanded'
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
